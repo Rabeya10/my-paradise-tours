@@ -8,7 +8,6 @@ font-family: 'Mulish', sans-serif;
 .logo{
 display: flex;
 justify-content: space-between;
-
 margin-top: 20px;
 margin-left: 180px;
 margin-right: 180px; 
@@ -78,7 +77,7 @@ display: inline-flex;
 padding: 16px;
 align-items: center;
 gap: 24px;
-margin-left: 230px;
+/* margin-left: 90px; */
 border: none;
 margin-top: 20px;
 }
@@ -103,76 +102,11 @@ margin-top: 20px;
     font-size: 15px;
     font-weight: 700;
 }
- @media screen and (max-width: 600px) {
-   .logo-title{
-        width: 50px;
-}
-.banner{
-       flex-direction: column;
-       width: 335px;
-       height: 483px;
-       margin-left: 5px;
-       margin-right: 5px;
-      }
-      .container{
-         padding: 15px;
-}
-      .container-title{
-        font-size: 30px;
-        color: black;
-
-      }
-      .container-detail{
-         color: black;
-          text-align: center;
-}
-.input{
-margin-left: 0;
-display: flex;
-width: 280px;
-padding: 16px;
-flex-direction: column;
-align-items: flex-start;
-gap: 16px;
-margin-right: 10px;
-margin-left: 10px;
-}
-.where-go{
-width: 280px;
-}
-.btn-primary{
-width: 280px;
-}
-.second-section{
-flex-direction: column;
-gap: 10px;
-
-}
-.popular{
-width: 350px;
-justify-content: left;
-}
-.img{
-width: 360px;
-height: 360px;
-margin-left: 10px;
-
-
-}
-
-}
-
-
-
-
-
-
-
-.second-section{
+ .second-section{
 display: flex;
 justify-content: center;
-gap: 150px;
-margin-left: 195px;
+gap: 130px;
+margin-left: 50px;
 margin-top: 70px;
 margin-bottom: 20px;
 }
@@ -625,3 +559,17 @@ font-weight: 300;
 
 
 }
+
+@media screen and (max-width:600px) {
+    
+
+
+
+
+}
+
+
+
+
+
+
